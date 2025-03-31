@@ -39,7 +39,7 @@ HAPNEST_GWAS/
 
 - PLINK v1.9 – for QC, GWAS, and meta-analysis (Slifer, 2018)
 - Python 3.11 – data handling and preprocessing
-- libraries listed in `requirements.txt`
+- Libraries listed in `requirements.txt`
 - Jupyter Notebook – reproducible workflow and step-by-step analysis
 
 ## License & Credits
