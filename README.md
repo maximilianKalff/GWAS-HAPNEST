@@ -14,7 +14,7 @@ HAPNEST_GWAS/
 │   ├── raw/                # Original input data (PLINK files per chromosome)
 │   ├── processed/          # Filtered & QC'd data per ancestry group
 │   ├── maps/               # rsID mapping files per chromosome
-│   └── results/            # GWAS and meta analysis results and visualizations
+│   └── results/            # results and visualizations
 │
 ├── notebooks/
 │   ├── 01_preprocessing.ipynb          # Data filtering, phenotype assignment and quality control
@@ -22,18 +22,18 @@ HAPNEST_GWAS/
 │   └── 03_results_visualization.ipynb  # Manhattan plots and summary visuals
 │
 ├── requirements.txt                    # Python dependencies
-├── run_gwas_caffeinate.sh              # Optional Bash script to run long jobs
 └── README.md
 ```
 
 ## How to Run
 
 1. Clone this repository and set up a python virtual environment.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Download the HAPNEST dataset manually into data/raw/.
-4. Run the preprocessing, QC and GWAS for both ancestries `AFR` and `EUR`.
-5. Run the meta analysis.
-6. Create plots & visualizations with `03_results_visualization.ipynb`.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Download PLINK into the project folder.
+4. Download the HAPNEST dataset manually into data/raw/.
+5. Run the preprocessing, QC and GWAS for both ancestries `AFR` and `EUR`.
+6. Run the meta analysis.
+7. Create plots & visualizations with `03_results_visualization.ipynb`.
 
 ## 🛠️ Tools Used
 
