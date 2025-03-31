@@ -35,7 +35,7 @@ HAPNEST_GWAS/
 6. Run the meta analysis.
 7. Create plots & visualizations with `03_results_visualization.ipynb`.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - PLINK v1.9 – for QC, GWAS, and meta-analysis (Slifer, 2018)
 - Python 3.11 – data handling and preprocessing
