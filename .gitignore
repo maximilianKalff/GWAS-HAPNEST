@@ -1,0 +1,34 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# === Virtual Environment ===
+venv/
+.env/
+.venv/
+
+# === Jupyter Checkpoints ===
+.ipynb_checkpoints/
+
+# === Data Files ===
+data/raw/
+data/processed/
+data/results/
+*.bed
+*.bim
+*.fam
+*.log
+*.prob
+*.nosex
+*.pheno
+
+plink
+
+
+# === Editor Settings ===
+.DS_Store
+.vscode/
+.idea/
+
